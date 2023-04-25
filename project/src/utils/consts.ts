@@ -1,3 +1,4 @@
+
 export const MAX_PERCENT_STARS_WIDTH = 100;
 export const STARS_COUNT = 5;
 
@@ -8,6 +9,7 @@ export enum AppRoute {
 	Offer = '/offers/:id'
 }
 
+
 export enum OfferPhotoSize {
 	FavoritesWidth = 150,
 	FavoritesHeight = 110,
@@ -17,6 +19,7 @@ export enum OfferPhotoSize {
 
 export enum Counter {
 	Offers = 4,
+
 }
 
 export enum AuthorizationStatus {
@@ -24,6 +27,7 @@ export enum AuthorizationStatus {
 	NoAuth = 'NO_AUTH',
 	Unknown = 'UNKNOWN',
 }
+
 
 export enum ActivePage {
 	Favorites = 'favorites',
@@ -50,3 +54,4 @@ export enum CurrentOfferKey {
 	IsPremium = 'isPremium',
 	Rating = 'rating',
 }
+

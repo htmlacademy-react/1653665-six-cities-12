@@ -1,5 +1,6 @@
 /* eslint-disable react/jsx-closing-bracket-location */
 /* eslint-disable no-mixed-spaces-and-tabs */
+
 import { protoOffer } from '../utils/types';
 import Offer from './Offer';
 import { ActivePage } from '../utils/consts';
@@ -16,6 +17,7 @@ function FoundOffers({ offers, typePage}: FoundOffersProps): JSX.Element {
         <section className={`${offers.length === 0 ? 'cities__no-places' : 'cities__places '} places`}>
           {/* пустой контейнер */}
           {offers.length === 0 ?
+
             <div className="cities__status-wrapper tabs__content">
               <b className="cities__status">No places to stay available</b>
               <p className="cities__status-description">We could not find any property available at the moment in Dusseldorf</p>
@@ -53,6 +55,7 @@ function FoundOffers({ offers, typePage}: FoundOffersProps): JSX.Element {
         </div>
       </div>
     </div>);
+
 
 }
 

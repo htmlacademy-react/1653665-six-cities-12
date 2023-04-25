@@ -1,6 +1,7 @@
 import FoundOffers from '../components/FoundOffers';
 import LocationItem from '../components/LocationItem';
 import { Helmet } from 'react-helmet-async';
+
 import { protoOffer } from '../utils/types';
 import { ActivePage } from '../utils/consts';
 
@@ -11,6 +12,7 @@ import { ActivePage } from '../utils/consts';
 }
 
 function MainPage({offers, cityCatalog, typePage} : MainPageProps ): JSX.Element {
+
   return (
     <div className="page page--gray page--main">
 
@@ -28,6 +30,7 @@ function MainPage({offers, cityCatalog, typePage} : MainPageProps ): JSX.Element
           </section>
         </div>
         {/* Отображение предложений.*/}
+
         <FoundOffers offers={offers} typePage={typePage}/>
       </main>
     </div>

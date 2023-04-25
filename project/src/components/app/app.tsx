@@ -46,4 +46,5 @@ function App({ isAuth, offers, cityCatalog}: AppScreenProps): JSX.Element {
 }
 
 
+
 export default App;

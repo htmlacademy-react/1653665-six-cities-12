@@ -1,5 +1,6 @@
 /* eslint-disable no-mixed-spaces-and-tabs */
 import { nanoid } from 'nanoid';
+
 import { protoOffer } from '../utils/types';
 
 import {
@@ -9,12 +10,15 @@ import {
 
 
 function getRandomIntInclusiveArrayElement<T>(array: T[]): T {
+
   const randomIndex = Math.floor(Math.random() * array.length);
   return array[randomIndex];
 }
 
 
+
 function renderMock(): protoOffer {
+
   return {
     id: nanoid(),
     city: getRandomIntInclusiveArrayElement(CITY),
@@ -33,6 +37,7 @@ function renderMock(): protoOffer {
 
 function renderArrayMocks(count: number):protoOffer[] {
   const arrayMocks: protoOffer[] = [];
+
 
   for (let i = 0; i < count; i++) {
     arrayMocks.push(renderMock());

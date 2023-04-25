@@ -1,6 +1,7 @@
 import Footer from '../components/Footer';
 import FavoritesLocationContainer from '../components/FavoritesLocationContainer';
 import { Helmet } from 'react-helmet-async';
+
 import { ActivePage, CurrentOfferKey } from '../utils/consts';
 import { protoOffer } from '../utils/types';
 import {filterOffers} from '../utils/util';
@@ -18,6 +19,7 @@ function Favorites ({typePage, offers} : FvoritesProps): JSX.Element {
 
   return (
     <>
+
       <Helmet>
         <title>Твои любимые места</title>
       </Helmet>
@@ -52,5 +54,6 @@ function Favorites ({typePage, offers} : FvoritesProps): JSX.Element {
     </>
   );
 }
+
 
 export default Favorites;

@@ -1,3 +1,4 @@
+
 import CommentForm from '../components/CommentForm';
 
 function OfferId (): JSX.Element {
@@ -150,6 +151,7 @@ function OfferId (): JSX.Element {
                 </ul>
                 {/* Место для формы отправки коммментариев */}
                 <CommentForm/>
+
               </section>
             </div>
           </div>
