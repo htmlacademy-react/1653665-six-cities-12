@@ -9,6 +9,12 @@ export const PHOTO: string[] = [
   'img/room.jpg'
 ];
 
+
+export const BOOLEAN: boolean[] = [
+  true, false
+];
+
+
 export const TITLE: string[] = [
   'Stylish apartments in the city center',
   'The best offer for a large family',
@@ -49,6 +55,12 @@ export const COUNT_GUESTS: string[] = [
 export const PRICE_FOR_NIGHT: string[] = [
   '150', '250', '350', '9999',
 ];
+
+
+export const RATING: number[] = [
+  1, 2, 3, 4, 5
+];
+
 
 export const AVATAR: string[] = [
   'project/public/img/avatar-angelina.jpg',
